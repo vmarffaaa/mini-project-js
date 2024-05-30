@@ -1,0 +1,39 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    color: #342924;
+}
+#post-details {
+    border: 1px solid #937960;
+    padding: 20px;
+    margin: 20px auto;
+    width: 91%;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+#post-details > p {
+    margin-left: 19px;
+    width: 900px;
+    font-size: 18px;
+}
+#post-details > h2 {
+    margin-left: 19px;
+}
+.comments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.comment {
+    border: 1px solid #937960;
+    padding: 10px;
+    margin: 14px;
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.comment > p {
+    margin-left: 19px;
+    width: 250px;
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: "PT Sans", sans-serif;
+    color: #342924;
+}
+.user {
+    border: 1px solid #937960;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 6px;
+}
+.user a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ad8c5f;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.user a:hover {
+    background-color: #7e6044;
+}
+.user-title{
+    text-align: center;
+    margin-top: 5px;
+}
+h3{
+    margin-left: 15px;
+}
